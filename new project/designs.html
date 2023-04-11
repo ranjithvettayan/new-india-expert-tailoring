@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>New India Elegant Tailoring</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+  <link rel="webpage icon" type="png" href="./finallogo.png">
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+   <link rel="stylesheet" href="designs.css">
+   
+
+  <link rel="webpage icon" type="png" href="./finallogo.png">
+</head>
+
+<body>
+  
+
+  <nav class="nav_nav">
+        <div class="container nav__container">
+            <a href="index.html"><h4>New India</h4></a>
+            <ul class="nav__menu" >
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="designs.html">Designs</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                
+            </ul>
+           <div class="toggle_btn">
+            <button onclick="myFunctionBtn()" id="menuBtn" class="menu">
+            <img src="./menu.png" class="open-btn">
+            </button>
+          </div>
+
+        </div>
+        <span id="drop" hidden>
+        <div class="dropdown_menu">
+          <ul >
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="designs.html">Designs</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                
+            </ul>
+        </div>
+        </span>
+
+    </nav>
+  <!-- Swiper -->
+  
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+
+      <div class="swiper-slide">
+        <div class="course__image">
+             <img src="./images/course023.jpg">     
+        </div>
+        <div class="course__info">
+            <h4>Designed Shirts</h4>
+            <p>Transform your wardrobe this season with our cutting-edge tailoring.</p>                             
+        </div>
+      </div>
+
+      <div class="swiper-slide" id="swiper">
+        <div class="course__info1">
+            <h4>Designed Shirts</h4>
+            <p>Transform your wardrobe this season with our cutting-edge tailoring.</p>                             
+        </div>
+        <div class="course__image1">
+             <img src="./images/desgin01.jpg">     
+        </div>
+
+      </div>
+
+      <div class="swiper-slide">
+         <div class="course__image">
+             <img src="./images/design03.jpg">     
+        </div>
+        <div class="course__info">
+            <h4>Designed Shirts</h4>
+            <p>Transform your wardrobe this season with our cutting-edge tailoring.</p>                             
+        </div>
+      </div>
+
+      <div class="swiper-slide" id="swiper">
+        <div class="course__info1">
+            <h4>Designed Shirts</h4>
+            <p>Transform your wardrobe this season with our cutting-edge tailoring.</p>                             
+        </div>
+        <div class="course__image1">
+             <img src="./images/design05.jpg">     
+        </div>
+      </div>
+
+      <div class="swiper-slide">
+        <div class="course__image">
+             <img src="./images/design04.jpg">     
+        </div>
+         <div class="course__info">
+            <h4>Designed Shirts</h4>
+            <p>Transform your wardrobe this season with our cutting-edge tailoring.</p>                             
+        </div>
+        
+
+      </div>
+
+      <div class="swiper-slide" id="swiper">
+        <div class="course__info1">
+            <h4>Designed Shirts</h4>
+            <p>Transform your wardrobe this season with our cutting-edge tailoring.</p>                             
+        </div>
+        <div class="course__image1">
+             <img src="./images/design06.jpg">     
+        </div>
+      </div>
+
+      <div class="swiper-slide">
+        <div class="course__image">
+             <img src="./images/design007.jpg">
+             </div>
+         <div class="course__info">
+            <h4>Designed Shirts</h4>
+            <p>Transform your wardrobe this season with our cutting-edge tailoring.</p>                             
+        </div>
+             
+        
+      </div>
+
+      
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+  
+   
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      direction: "vertical",
+      slidesPerView: 1,
+      spaceBetween: 30,
+      mousewheel: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      
+    });
+  </script>
+  <script src="app.js"></script>
+</body>
+
+</html>

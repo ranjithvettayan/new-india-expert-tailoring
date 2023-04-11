@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New India Elegant Tailoring,Kallakurichi.</title>
+    <link rel="webpage icon" type="png" href="./finallogo.png">
+    
+    <!--google font combination -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+    
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <link  rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+
+    
+
+
+</head>
+<body>
+  <div id="preloader"></div>
+    <nav class="nav_nav">
+        <div class="container nav__container">
+            <a href="index.html"><h4>New India</h4></a>
+            <ul class="nav__menu" >
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="designs.html">Designs</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                
+            </ul>
+           <div class="toggle_btn">
+            <button onclick="myFunctionBtn()" id="menuBtn" class="menu">
+            <img src="./menu.png" class="open-btn">
+            </button>
+          </div>
+
+        </div>
+        <span id="drop" hidden>
+        <div class="dropdown_menu">
+          <ul >
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="designs.html">Designs</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                
+            </ul>
+        </div>
+        </span>
+
+    </nav>
+    <header>
+        <div class="container header__container">
+            <div class="header__left">
+             <h1>
+             New India Elegant Tailoring </h1>
+             <p>
+                Just because a suit fits, doesn't mean it looks good. 
+                You need a  tailor.
+                You want to get bespoke.
+             </p>
+             <a href="designs.html" class="btn btn-primary">Explore Us</a>
+            </div>
+            <div class="header__right">
+                <div class="header__right-image" >
+                    <img src="./images/tailor(1).png">
+                </div>
+
+            </div>
+        </div>    
+    </header>
+    <!--==================End Of Header===============1-->
+
+
+
+
+
+
+    <section class="categories"> 
+        <div class="container categories__container">
+            <div class="categories__left">
+                <h1>History</h1>
+                <p>
+                  We are running this shop since for 22 years and 
+                  now it is our celebration for stepping on 23th 
+                  year with the support of our elegant customers.
+                  Behind our success there is only the things like
+                  Style, Comfort and Designees.   
+                </p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+            <div class="categories__right">
+                  <artical class="category">
+                    <span class="category__icon">
+                        <i><img class="icon" src="./images/tailor00.png"></i>
+                    </span>
+                        <h5>Experience</h5>
+                        <p>Adept in working with clients to understand needs and <span id="dots">...</span> <span id="more" hidden>desires, recording accurate measurements,and utilizing advanced sewing techniques and technology to achieve client satisfaction.</span> </p>
+                    <button onclick="myFunction()" id="myBtn" class="read">Read more</button>
+                  </artical>
+
+                  <artical class="category">
+                    <span class="category__icon">
+                        <i><img class="icon" src="./images/tailor02.png"></i>
+                    </span>
+                        <h5>Measurements</h5>
+                        <p>Taking measurements is one of the most important steps <span id="dots01">...</span> <span id="more01" hidden>of making a dress,and a good tailor pays attention to every small detail.</span></p>
+                    <button onclick="myFunction01()" id="myBtn01" class="read">Read more</button>
+                  </artical>
+
+                  <artical class="category">
+                    <span class="category__icon">
+                        <i><img class="icon" src="./images/tailor01.png"></i>
+                    </span>
+                        <h5>Buttons</h5>
+                        <p>"Taylors is a veritable aladdin's cave of wonderful <span id="dots02">...</span><span id="more02" hidden>buttons from period to modern, and the button & belt making service is excellent."</span></p>
+                    <button onclick="myFunction02()" id="myBtn02" class="read">Read more</button>
+                  </artical>
+                  
+                  <artical class="category">
+                    <span class="category__icon">
+                        <i><img class="icon" src="./images/tailor04.png"></i>
+                    </span>
+                        <h5>Workers</h5>
+                        <p>Tailors use their knowledge of garment construction and  <span id="dots03">...</span><span id="more03" hidden>style to fit, alter,and create garments to client specifications. They read patterns, use measuring tools, and work with different fabrics and embellishments in the course of their work.</span></p>
+                    <button onclick="myFunction03()" id="myBtn03" class="read">Read more</button>
+                  </artical>
+                  
+                  <artical class="category">
+                    <span class="category__icon">
+                        <i><img class="icon" src="./images/tailor03.png"></i>
+                    </span>
+                        <h5>Power Machines</h5>
+                        <p>You can sew your own curtain to remain hidden from the dark side of the world.</p>
+                    
+                  </artical>
+                  
+                  <artical class="category">
+                    <span class="category__icon">
+                        <i><img class="icon" src="./images/tailor05.png"></i>
+                    </span>
+                        <h5>Skills</h5>
+                        <p>Learn to see tailoring as an investment and not a cost<span id="dots04">...</span><span id="more04" hidden>,it's an investment in yourself.</span></p>
+                    <button onclick="myFunction04()" id="myBtn04" class="read">Read more</button>
+                  </artical>
+
+            </div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/leMXTUWQh8E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/leMXTUWQh8E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/leMXTUWQh8E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/leMXTUWQh8E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                 
+        </div>
+    </section>
+    
+    <!--==========================End of Categories==================-->
+
+
+    <section class="courses">
+      <h2>Familiar Designs</h2>
+      <div class="container courses__container">
+
+       <artical class="course">
+        <div class="course__image">
+          <img src="./images/course01.jpg">
+        </div>
+        <div class="course__info">
+        <h4>Stylish Shirts</h4>
+        <p>
+         Transform your wardrobe this season with our cutting-edge tailoring.
+        </p>
+        <a href="designs.html" class="btn btn-primary">See More</a>
+        </div>
+       </artical>
+
+       <artical class="course">
+        <div class="course__image">
+          <img src="./images/course02.jpg">
+        </div>
+          <div class="course__info">
+        <h4>Comfortable pants</h4>
+        <p>
+          Style is personal. Tailoring is pivotal. Style your world.It’s an art. It’s a way of life
+        </p>
+        <a href="designs.html" class="btn btn-primary">See More</a>
+          </div>
+       </artical>
+
+       <artical class="course">
+        <div class="course__image">
+          <img src="./images/course023.jpg" class="img01">
+        </div>
+        <div class="course__info">
+        <h4>Originality</h4>
+        <p>
+          Style is knowing who you are, what you want to say, and not giving a damn.
+        </p>
+        <a href="designs.html" class="btn btn-primary">See More</a>
+        </div>
+       </artical>
+
+      </div>
+    </section>
+
+    <!---=================end of the designs===========-->
+
+    <section class="faqs">
+      <h2>Frequently Asked Question's</h2> 
+      <div class="container faqs__container">
+
+        <article class="faq">
+         <div class="faq__icon"><img src="./images/plus.svg"></div> 
+         <div class="question__answer"></div>
+
+         <button onclick="myFunction11()" id="myBtn11" class="read">
+            <h4>Do your Shop Also Stich Dress for Womens?  </h4>
+            </button>
+            <span id="answer0" hidden>
+            <p>
+              No,sorry we best in making men dresses and designs.     
+            </p>
+            </span>
+
+        </article>
+
+        <article class="faq">
+         <div class="faq__icon"><img src="./images/plus.svg"></div> 
+         <div class="question__answer"></div>
+
+         <button onclick="myFunction12()" id="myBtn12" class="read">
+            <h4>Can you alter any garments?</h4>
+            </button>
+            <span id="answer1" hidden>
+            <p>
+              We can alter almost anything, from garments to curtains.
+            </p>
+            </span>
+        </article>
+
+        <article class="faq">
+         <div class="faq__icon"><img src="./images/plus.svg"></div> 
+         <div class="question__answer"></div>
+
+         <button onclick="myFunction13()" id="myBtn13" class="read">
+            <h4>I need to redesign my dress, can you help?</h4>
+            </button>
+            <span id="answer2" hidden>
+            <p>
+              Our qualified seamstresses will advise and guide you through the process to reach your desired redesign.
+            </p></span>
+        </article>
+
+        <article class="faq">
+         <div class="faq__icon"><img src="./images/plus.svg"></div> 
+         <div class="question__answer"></div>
+
+         <button onclick="myFunction14()" id="myBtn14" class="read">
+            <h4>I have a designer suit which I would like to alter?</h4>
+            </button>
+            <span id="answer3" hidden>
+            <p>
+              Yes. We specialise in Mens suits alterations. Our professional team will guarantee a perfect alterations and finish.
+            </p>
+            </span>
+        </article>
+
+        <article class="faq">
+         <div class="faq__icon"><img src="./images/plus.svg"></div> 
+         <div class="question__answer"></div>
+
+         <button onclick="myFunction15()" id="myBtn15" class="read">
+            <h4>Do you take on very easy tasks?</h4>
+            </button>
+            <span id="answer4" hidden>
+            <p>
+              Yes indeed. We are happy to take on any job needed, from fixing a button to ripped pockets.
+            </p>
+            </span>
+        </article>
+
+        <article class="faq">
+         <div class="faq__icon"><img src="./images/plus.svg"></div> 
+         <div class="question__answer"></div>
+
+         <button onclick="myFunction16()" id="myBtn16" class="read">
+            <h4>Can you take on rush jobs with tight dead lines?</h4>
+         </button>   
+            <span id="answer5" hidden>
+            <p>
+              Yes. You can use our urgent alteration services.
+            </p>
+            </span>
+        </article>
+
+        <article class="faq">
+         <div class="faq__icon"><img src="./images/plus.svg"></div> 
+         <div class="question__answer"></div>
+
+         <button onclick="myFunction17()" id="myBtn17" class="read">
+            <h4>How will you take my measurements?</h4>
+            </button>
+            <span id="answer6" hidden>
+            <p>
+              Measurements only take at shop. Because of your satisfaction and comfort.
+            </p>
+            </span>
+        </article>
+
+        <article class="faq">
+         <div class="faq__icon"><img src="./images/plus.svg"></div> 
+         <div class="question__answer"></div>
+         <button onclick="myFunction18()" id="myBtn18" class="read">
+            <h4>Do you help with designing the outfit?</h4>
+            </button>
+            <span id="answer7" hidden>
+            <p>
+              While you’re making this choice, she will also help you understand what kind of designs might suit your body type.
+            </p>
+            </span>
+        </article>
+
+        <article class="faq">
+         <div class="faq__icon"><img src="./images/plus.svg"></div> 
+         <div class="question__answer"></div>
+         <button onclick="myFunction19()" id="myBtn19" class="read">
+            <h4>What kind of clothes do you stitch?</h4>
+            </button>
+            <span id="answer8" hidden>
+            <p>
+              We can stitch pant, shirt, slack, safari for Mens with unic Designs and Comforts.
+            </p>
+            </span>
+        </article>
+
+        <article class="faq">
+         <div class="faq__icon"><img src="./images/plus.svg"></div> 
+         <div class="question__answer"></div>
+         <button onclick="myFunction10()" id="myBtn10" class="read">
+            <h4>What Types of Thread Should I Use?</h4>
+            </button>
+            <span id="answer9" hidden>
+            <p>
+              We only use good and strong threads to stitch the pant and shirts.
+            </p>
+            </span>
+        </article>
+      </div>
+               
+
+    </section>
+<!----------------------------------------------FAQs------------------------->
+
+<section class="conatiner about__Container swiper mySwiper">
+  <h2 class="about__h2">About</h2>
+  <div class="swiper-wrapper">
+    <artical class="about swiper-slide">
+      <div class="avatar">
+        <img src="./images/avatar1.jpg">
+      </div>
+      <div class="about__info">
+        <h5>Owner Name</h5>
+        <small>Owner</small>
+        <div class="about__body">
+        <p>Hi, I am the owner of NEW INDIA ELEGANT TAILORING. I have experience of 30 Years in this Tailoring field and have much of regular customers with good stitching skills.</p>
+      </div>
+      </div>
+    </artical>
+
+    <artical class="about swiper-slide">
+      <div class="avatar">
+        <img src="./images/avatar2.jpg">
+      </div>
+      <div class="about__info">
+        <h5>Owner Name</h5>
+        <small>Owner</small>
+        <div class="about__body">
+        <p>Hi, I am the owner of NEW INDIA ELEGANT TAILORING. I have experience of 30 Years in this Tailoring field and have much of regular customers with good stitching skills.</p>
+      </div>
+      </div>
+    </artical>
+
+    <artical class="about swiper-slide">
+      <div class="avatar">
+        <img src="./images/avatar3.jpg">
+      </div>
+      <div class="about__info">
+        <h5>Owner Name</h5>
+        <small>Owner</small>
+        <div class="about__body">
+        <p>Hi, I am the owner of NEW INDIA ELEGANT TAILORING. I have experience of 30 Years in this Tailoring field and have much of regular customers with good stitching skills.</p>
+        </div>
+      </div>
+    </artical>
+
+    <artical class="about swiper-slide">
+      <div class="avatar">
+        <img src="./images/avatar4.jpg">
+      </div>
+      <div class="about__info">
+        <h5>Owner Name</h5>
+        <small>Owner</small>
+        <div class="about__body">
+        <p>Hi, I am the owner of NEW INDIA ELEGANT TAILORING. I have experience of 30 Years in this Tailoring field and have much of regular customers with good stitching skills.</p>
+      </div>
+      </div>
+    </artical>
+
+    <artical class="about swiper-slide">
+      <div class="avatar">
+        <img src="./images/avatar5.jpg">
+      </div>
+      <div class="about__info">
+        <h5>Owner Name</h5>
+        <small>Owner</small>
+        <div class="about__body">
+        <p>Hi, I am the owner of NEW INDIA ELEGANT TAILORING. I have experience of 30 Years in this Tailoring field and have much of regular customers with good stitching skills.</p>
+      </div>
+      </div>
+    </artical>
+
+    <artical class="about swiper-slide">
+      <div class="avatar">
+        <img src="./images/avatar6.jpg">
+      </div>
+      <div class="about__info">
+        <h5>Owner Name</h5>
+        <small>Owner</small>
+        <div class="about__body">
+        <p>Hi, I am the owner of NEW INDIA ELEGANT TAILORING. I have experience of 30 Years in this Tailoring field and have much of regular customers with good stitching skills.</p>
+      </div>
+      </div>
+    </artical>
+
+  </div>
+  
+  <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+
+</section>
+<!--------------------Abouts Finished-------------->
+
+
+
+      <footer class="footer">
+        <div class="container footer__container">
+
+          <div class="footer__1">
+            <a href="index.html" class="footer__logo"><h4>New India</h4></a>
+            <p>Just because a suit fits, doesn't mean it looks good. 
+                You need a  tailor.</p>
+          </div>
+
+          <div class="footer__2">
+             <h4>PermaLinks</h4>  
+             <ul class="permalinks">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="Designs.html">Designs</a></li>
+              <li><a href="Contact.html">Contact</a></li>
+             </ul>         
+          </div>
+
+          <div class="footer__3">
+            <h4>Privacy</h4>
+            <ul class="privacy">
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms and Conditions</a></li>
+              <li><a href="#">Refund Policy</a></li>  
+            </ul>
+
+          </div>
+
+          <div class="footer__4">
+            <h4>Contact Us</h4>
+            <div>
+              <p>+91 97872 48442</p>
+              <p>raviranjithrsr@gmail.com</p>
+            </div>
+            
+            <ul class="footer__socials">
+              <li>
+                <a href="#"><i class="uil uil-facebook-f"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="uil uil-instagram-alt"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="uil uil-twitter"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="uil uil-linkedin-alt"></i></a>
+              </li>
+            </ul>
+
+          </div>
+
+          
+
+        </div>
+        
+        <div class="footer__copyright">
+            <small>CopyRights @copy:New India Elegant Tailoring</small>
+          </div>
+
+      </footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+
+<script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      keyboard: {
+        enabled: true,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+
+    var loader = document.getElementById("preloader");
+
+    window.addEventListener("load", function(){
+         loader.style.display = "none";
+    })
+  </script>
+</body>
+</html>

@@ -11,7 +11,7 @@
 
 /*=======aside====*/
 .contact__aside{
-  background: var(--color-primary);
+  background-image: linear-gradient(to right top, #009245, #50ac3f, #86c435, #bfda28, #fcee21);
   padding: 3rem;
   border-radius: 1rem;
   position: relative;
@@ -49,10 +49,7 @@
    font-size: 0.9rem;
    transition: var(--transition);
 }
-.contact__socials a:hover{
-  background: transparent;
 
-}
 
 /*====form====*/
 
